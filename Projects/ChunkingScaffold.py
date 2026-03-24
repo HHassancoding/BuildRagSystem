@@ -2,7 +2,7 @@ from pathlib import Path
 from typing import List, Dict, Tuple
 
 from PyPDF2 import PdfReader
-import PyPDF2  # pip install PyPDF2
+import PyPDF2  
 
 def load_pdf_text(path: Path) -> List[Dict]:
     """
